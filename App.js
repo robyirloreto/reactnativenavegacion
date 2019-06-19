@@ -9,7 +9,7 @@ import DetailScreen from './pantallas/DetailScreen';
 const AppNavigator = createStackNavigator({
   
     Home: HomeScreen,
-    Details: DetailsScreen
+    Details: DetailScreen
   },
   {
     initialRouteName: "Home"
